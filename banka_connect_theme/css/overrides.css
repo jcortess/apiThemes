@@ -1,0 +1,263 @@
+/*carousel css */
+
+.panel-pane.pane-views.pane-my-slide-show.no-title.block {
+  padding: 0 0 0 0;
+}
+
+.panel-pane.pane-views.pane-my-slide-show.no-title.block .block-inner {
+  margin: 0;
+}
+
+#content .panel-pane.pane-views.pane-my-slide-show.no-title.block .block-inner .slick.slick--slider {
+  margin: 0;
+}
+
+.slick-slider {
+  margin-bottom: 0;
+}
+
+.slick__slide img {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 300px;
+}
+
+.slick__slide .views-field-field-slide-content{
+  position: absolute;
+  left: 0.5em;
+  width: 100%;
+}
+/* arrow colors */
+
+.slick-prev::before, .slick-next::before {
+  color: #d0021b;
+}
+
+
+
+/* header */
+html, body, .apimInnerContainer {
+  background-color: #fff;
+  color: #000;
+}
+body#tinymce {
+  background: none;
+}
+body.page-home #columns.no-menu-bar {
+  background-color: #fff;
+}
+
+#page > header {
+  background-color: #a0a0a0;
+}
+
+#menu-bar {
+  background-color: #a0a0a0;
+  border-bottom: 10px solid #ff9900;
+}
+a.active {
+  color: #1D8FEB !important;
+}
+
+.front a,
+.front a:hover,
+.front a:visited,
+.front a:focus,
+.front a:link,
+.front a:active {
+  color: #398373;
+}
+
+header a,
+header a:hover,
+header a:focus,
+header a:visited,
+header a:link,
+header a:active,
+.front header a,
+.front header a:hover,
+.front header a:focus,
+.front header a:visited,
+.front header a:link,
+.front header a:active {
+  color:#ffffff;
+}
+#menu-bar a,
+#menu-bar a:hover,
+#menu-bar a:visited,
+#menu-bar a:focus,
+#menu-bar a:active,
+.nav .block-menu ul li a,
+.front #menu-bar a,
+.front #menu-bar a:hover,
+.front #menu-bar a:focus,
+.front #menu-bar a:link,
+.front #menu-bar a:visited,
+.front #menu-bar a:active {
+  color: #ffffff;
+}
+h1.node-title a {
+  color: #ff9c00;
+}
+#menu-bar a:active,
+.front #menu-bar a:active {
+  color: #1d8feb !important;
+}
+.dropitmenu ul.dropit-submenu a {
+  color: #7a868e;
+}
+.dropitmenu ul.dropit-submenu a:hover {
+  background: #248fc1;
+  color: #fff;
+}
+
+.block-region-content.block-main {
+  padding: 0 10px 10px 10px;
+}
+
+#page > footer, #page > footer .block-title {
+  border-top: 10px solid #ff9900;
+  background-color: #dee0e2;
+}
+
+#page > footer a {
+  color: #454A4C;
+}
+
+#block-search-form.block.block-search.menu-wrapper.menu-bar-wrapper {
+  padding-top: 0;
+}
+
+#block-search-form.block.block-search.menu-wrapper.menu-bar-wrapper {
+  width: 250px;
+  padding-left: 25px;
+}
+#block-search-form .form-item-search-block-form label {
+  height: 35px;
+  line-height: 35px;
+  text-indent: 15px;
+  overflow: hidden;
+  display: block;
+  background-color: #FFFFFF;
+  width: 215px;
+  clip: rect(1px,1px,1px,1px);
+  z-index: 1;
+}
+#block-search-form .form-item-search-block-form input {
+  font-size: 16px;
+  line-height: 1.4375;
+  font-weight: 400;
+  text-transform: none;
+  position: relative;
+  padding: 6px;
+  z-index: 3;
+  background-color: #FFFFFF;
+  width: 215px;
+  border-radius: 0;
+  border: 0 !important;
+}
+#search-block-form input.form-submit {
+  position: absolute;
+  z-index: 4;
+  right: 0;
+  top: 0;
+  width: 35px;
+  height: 35px;
+  border: 1px solid #ff9900;
+  border-width: 0 0 0 1px;
+  border-left-color: #ff9900;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  overflow: hidden;
+  text-indent: -5000px;
+  color: #FFF;
+  background-color: #ff9900;
+  background-image: url(../images/search-button.png);
+  background-repeat: no-repeat;
+  background-position: 0 50%;
+}
+#search-block-form input.form-submit:hover,
+#search-block-form input.form-submit:focus {
+  background-position: 0 50%;
+  background-color: #004F8B;
+}
+#block-system-main-menu.menu-bar-wrapper {
+  padding-left: 30px;
+}
+
+.banner_block .banner_button {
+  padding-top: 0;
+}
+
+/* link color */
+#skip-link a,
+ul.tabs li a,
+ul.tabs li a:visited {
+  color: #ff9c00;
+  font-weight: bold;
+}
+a,
+a:visited,
+.portal .portalApi .testAPILink a,
+.portal .portalApi .testAPILink a:visited,
+a:hover,
+a:focus,
+a:active,
+.portal .portalApi .testAPILink a:hover,
+.portal .portalApi .testAPILink a:focus,
+.portal .portalApi .testAPILink a:active,
+h3.apimSummaryTitle,
+.breadcrumb a:hover,
+.breadcrumb a:focus,
+.breadcrumb a:active,
+#page > footer a:hover,
+#page > footer a:focus,
+#page > footer a:active,
+.apiPlanSummary .planSubscribe a,
+.apiPlanSummary .planSubscribe a:link,
+.apiPlanSummary .planSubscribe a:visited,
+.apimPlansApis .ui-accordion-header .testAPILink a,
+.apimPlansApis .ui-accordion-header .testAPILink a:link,
+.apimPlansApis .ui-accordion-header .testAPILink a:visited,
+.apiPlanSummary .planSubscribe a:hover,
+.apiPlanSummary .planSubscribe a:focus,
+.apiPlanSummary .planSubscribe a:active,
+.apimPlansApis .ui-accordion-header .testAPILink a:hover,
+.apimPlansApis .ui-accordion-header .testAPILink a:focus,
+.apimPlansApis .ui-accordion-header .testAPILink a:active {
+  color: #ff9c00;
+}
+a.active {
+  color: #ff9c00 !important;
+}
+
+/* button color */
+button,
+input[type="submit"],
+input.form-submit,
+.form-actions a,
+.form-actions a:visited,
+.button, a.button, a.button:visited,
+.banner_block .banner_button a,
+.portal .migratePlanContainer .migrateButton a,
+.numberedList a,
+.supportList a {
+  background-color: #ff9900;
+  color: #fffeff;
+}
+
+.dropit-icon {
+  background-image: url(images/ui/ui-icons_ffffff_256x240.png);
+}
+
+.singleOrg {
+  color: #dbdee2;
+}
+
+
+
